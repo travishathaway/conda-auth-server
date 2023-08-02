@@ -1,0 +1,42 @@
+{
+  "info": {
+    "subdir": "noarch"
+  },
+  "packages": {
+    "aiopg-1.3.3-py_0.tar.bz2": {
+      "build": "py_0",
+      "build_number": 0,
+      "depends": [
+        "async-timeout <5.0,>=3.0",
+        "async_timeout >=3.0,<5.0",
+        "psycopg2-binary >=2.8.4",
+        "python >=3.6"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "910c36ef86ef1f5c21b5f78a37bc5028",
+      "name": "aiopg",
+      "noarch": "python",
+      "sha256": "e423caebe68d3cfed5da8d373f9f80533a9f226de927679c506962b7925bcca4",
+      "size": 30488,
+      "subdir": "noarch",
+      "timestamp": 1649322701479,
+      "version": "1.3.3"
+    },
+    "travis_test-0.1.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "46aeb3952798f660535c2bd45ba4a188",
+      "name": "travis_test",
+      "noarch": "python",
+      "sha256": "fdbdc07a13f2b3164428f08435f5bc89a4361849654b0867866706808f70b83d",
+      "size": 3075,
+      "subdir": "noarch",
+      "timestamp": 1651048502700,
+      "version": "0.1.0"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

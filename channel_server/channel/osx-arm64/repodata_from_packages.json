@@ -1,0 +1,58 @@
+{
+  "info": {
+    "subdir": "osx-arm64"
+  },
+  "packages": {
+    "aiocsv-1.2.1-py310h8a0c2ca_0.tar.bz2": {
+      "build": "py310h8a0c2ca_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.10,<3.11.0a0",
+        "python_abi 3.10.* *_cp310"
+      ],
+      "license": "MIT",
+      "md5": "0000bd1cbd469f4af2804ba6fb6e7dce",
+      "name": "aiocsv",
+      "sha256": "9a80f7cfb380c0b0cef4cd1109926b956e51abb264c6ff31b1adee17ec0d4d39",
+      "size": 43734,
+      "subdir": "osx-arm64",
+      "timestamp": 1647524632937,
+      "version": "1.2.1"
+    },
+    "aiocsv-1.2.1-py38h8a0c2ca_0.tar.bz2": {
+      "build": "py38h8a0c2ca_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38"
+      ],
+      "license": "MIT",
+      "md5": "cd6d15df89a2ec1b6eec998e064afb6c",
+      "name": "aiocsv",
+      "sha256": "ac5583e41b1eaf47c429682773c7a6be0006c4a422545d1e52e2f10d798d0526",
+      "size": 43967,
+      "subdir": "osx-arm64",
+      "timestamp": 1647523600614,
+      "version": "1.2.1"
+    },
+    "aiocsv-1.2.1-py39h8a0c2ca_0.tar.bz2": {
+      "build": "py39h8a0c2ca_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "license": "MIT",
+      "md5": "434c92ba1fa22d4c1585c1e7e676def7",
+      "name": "aiocsv",
+      "sha256": "80498d93c7f84d614ad9a7a86460b846bba2268b12000c6b203461ed757438db",
+      "size": 43380,
+      "subdir": "osx-arm64",
+      "timestamp": 1647524483371,
+      "version": "1.2.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

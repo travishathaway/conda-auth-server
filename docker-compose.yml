@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+  channel_server:
+    build:
+      context: ./channel_server
+    ports:
+      - "8042:80"
+    volumes:
+      - "./channel_server/channel:/usr/share/nginx/html"
+  auth_proxy:
+    build:
+      context: ./auth_proxy
+    ports:
+      - "8041:9000"
+    env_file:
+      - .env-auth-proxy
+    volumes:
+      - ./auth_proxy:/opt/
+    environment:
+      STARTUP_COMMAND: "/docker-entrypoint.sh"
+
+  redis:
+    image: redis:alpine
+
+networks:
+  default:
+    name: conda-auth-server
+    external: true

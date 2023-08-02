@@ -1,0 +1,87 @@
+{
+  "info": {
+    "subdir": "osx-64"
+  },
+  "packages": {
+    "aiocsv-1.2.1-py310h254f028_0.tar.bz2": {
+      "build": "py310h254f028_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.10,<3.11.0a0",
+        "python_abi 3.10.* *_cp310"
+      ],
+      "license": "MIT",
+      "md5": "c48ada72cefdebe3292b415bacd547ba",
+      "name": "aiocsv",
+      "sha256": "bcd9c7ec0c1dd95ac2d74d2c16ad40754e2af4f631c9a93baca192f3bc1e061a",
+      "size": 43176,
+      "subdir": "osx-64",
+      "timestamp": 1647525557341,
+      "version": "1.2.1"
+    },
+    "aiocsv-1.2.1-py38h254f028_0.tar.bz2": {
+      "build": "py38h254f028_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38"
+      ],
+      "license": "MIT",
+      "md5": "ff3385f59b2fff5fcd5e1f467119420a",
+      "name": "aiocsv",
+      "sha256": "702dcf526ca476fea3673589399e2d7accd545688433ef58096e4825fc0f48af",
+      "size": 43591,
+      "subdir": "osx-64",
+      "timestamp": 1647525667507,
+      "version": "1.2.1"
+    },
+    "aiocsv-1.2.1-py39h254f028_0.tar.bz2": {
+      "build": "py39h254f028_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "license": "MIT",
+      "md5": "2f4344e0aad5c4f1986cb36410c410e4",
+      "name": "aiocsv",
+      "sha256": "cce7ef93ce5e411e7de4cfb7d9cd04fe3b77d2f5cb4d893ccfefdf2ae5c1ceb6",
+      "size": 42885,
+      "subdir": "osx-64",
+      "timestamp": 1647525776480,
+      "version": "1.2.1"
+    },
+    "dummy-1-py310hf701924_0.tar.bz2": {
+      "build": "py310hf701924_0",
+      "build_number": 0,
+      "depends": [
+        "libcxx >=12.0.0",
+        "python >=3.10,<3.11.0a0"
+      ],
+      "md5": "da91f4b3161ef995029d162f89920a4f",
+      "name": "dummy",
+      "sha256": "ac859d7408cabc5a0e7fd9367c17ec2b11bdd1e51e700dfb1fe6dc713d091e67",
+      "size": 2915,
+      "subdir": "osx-64",
+      "timestamp": 1658445794527,
+      "version": "1"
+    },
+    "protozero-1.7.1-2.tar.bz2": {
+      "build": "2",
+      "build_number": 2,
+      "depends": [],
+      "license": "GPL-3.0-or-later",
+      "license_family": "GPL",
+      "md5": "806540ac6b98d0140a5d587d3cbd4c57",
+      "name": "protozero",
+      "sha256": "58107bb23da3d558f93191dd1d857edfea9fe032a15296120a8634114cee3402",
+      "size": 5573936,
+      "subdir": "osx-64",
+      "timestamp": 1650915050191,
+      "version": "1.7.1"
+    }
+  },
+  "packages.conda": {},
+  "removed": [],
+  "repodata_version": 1
+}

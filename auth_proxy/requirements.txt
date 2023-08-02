@@ -1,0 +1,6 @@
+Authlib
+Flask-Session
+Flask
+gunicorn
+redis
+requests
