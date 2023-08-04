@@ -20,7 +20,7 @@ services:
     environment:
       STARTUP_COMMAND: "/docker-entrypoint.sh"
 
-  redis:
+  redis_auth_proxy:
     image: redis:alpine
 
 networks:

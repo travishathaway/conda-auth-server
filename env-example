@@ -1,0 +1,20 @@
+# Example of the necessary env file needed to run docker compose
+# Rename this file to .env-auth-proxy
+
+# OAuth
+CONDA_AUTH_API_BASE_URL=http://app_idp:9000/
+CONDA_AUTH_ACCESS_TOKEN_URL=http://app_idp:9000/oauth/token
+CONDA_AUTH_AUTHORIZE_URL=http://accounts.thath.net:9000/oauth/authorize
+CONDA_AUTH_CLIENT_ID=xxxxxxxxxxxxxxxxxx
+CONDA_AUTH_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Redis
+REDIS_HOST=redis
+REDIS_PORT=6379
+
+# Flask
+SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+SERVER_NAME=localhost
+
+# Channel server
+CHANNEL_URL=http://channel_server
